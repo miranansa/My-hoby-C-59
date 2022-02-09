@@ -1,0 +1,48 @@
+body{
+    background-color: blueviolet;
+    background: linear-gradient(#c6fc03 0%,#3903fc 100%)
+}
+
+#ul1{
+     list-style: none;
+    font-family: monospace;
+    position: fixed;
+    top:10px;
+    right:30px;
+    cursor:pointer;
+    z-index: 2;
+}
+.li1{
+    float:left;
+    font-family: fantasy;
+    font-size: 20px;
+    color: aquamarine;
+    padding:5px;
+    font-family: 'Smooch', cursive;
+}
+.line{
+    width:1000px;
+    height:10px;
+    background-color: aqua;
+  margin: auto;
+   
+}
+#sec1{
+    z-index:1;
+    text-align: center;
+}
+#sec2{
+z-index:1;
+text-align: center;
+}
+.li:hover{
+    background-color: darkgreen;
+}
+#img1{
+    width:300px;
+    height:200px;
+}
+#img2{
+    height:200px;
+    width: 300px;
+}
